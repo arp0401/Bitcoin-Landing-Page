@@ -1,0 +1,139 @@
+/* All are Applicable */
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Upper Bar */
+
+.upper-bar
+{
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Menu-Logo bar */
+
+.menu-logo-bar{
+    display: flex;
+}
+
+.logo{
+    margin: 10px;
+    display: flex;
+}
+
+span{
+    color: Orange;
+}
+
+h1{
+    margin: auto;
+    padding: 10px;
+}
+
+ul{
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 30px;
+
+}
+li{
+    list-style: none;
+    margin-right: 100px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    height: 1000px;
+    width: 1000px;
+    background-color: orange;
+    color: white;
+    border:5px;
+    border-radius: 15px;
+}
+
+/* Image and content */
+
+.image-content-container{
+    display:flex;
+    justify-content: flex-end;
+    margin:10px;
+}
+
+.content-1{
+    text-align: left;
+    font-size: 40px;
+    color:black;
+}
+
+.content-2{
+    text-align: left;
+    font-size: 35px;
+    color:black;
+}
+
+/* button */
+
+button{
+    background-color: orange;
+    height:50px;
+    width:100px;
+    border-radius: 25px;
+    size: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFFFFF;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    height: 200px;
+}
+
+.white-text{
+    color:#FFFFFF;
+    padding-right:1300px;
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Footer menu */
+
+/* .footer-menu li{
+    color:white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} */
+
+.footer-menu ul{
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.footer-menu li{
+    color:white;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+}
